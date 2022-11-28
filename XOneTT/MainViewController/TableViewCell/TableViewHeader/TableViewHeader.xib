@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TableHeader" id="QPn-jh-Adr" customClass="TableViewHeader" customModule="XOneTT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k8E-rh-vys">
+                    <rect key="frame" x="10" y="0.0" width="480" height="144"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="SKI-ls-2vS">
+                            <rect key="frame" x="0.0" y="63.666666666666671" width="135" height="17.333333333333329"/>
+                            <color key="tintColor" systemColor="systemGray2Color"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10-DAY FORECAST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywM-br-NgY">
+                            <rect key="frame" x="145" y="63.666666666666657" width="335" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" systemColor="systemGray2Color"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="shg-D4-63g">
+                    <rect key="frame" x="10" y="144" width="480" height="6"/>
+                    <color key="backgroundColor" systemColor="systemGray2Color"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="JuT-Un-wQR"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="k8E-rh-vys" firstAttribute="top" secondItem="QPn-jh-Adr" secondAttribute="top" id="BcE-Be-DR6"/>
+                <constraint firstAttribute="bottom" secondItem="shg-D4-63g" secondAttribute="bottom" id="HUk-zd-uzb"/>
+                <constraint firstItem="JuT-Un-wQR" firstAttribute="trailing" secondItem="shg-D4-63g" secondAttribute="trailing" constant="10" id="JqH-gx-huj"/>
+                <constraint firstItem="shg-D4-63g" firstAttribute="leading" secondItem="JuT-Un-wQR" secondAttribute="leading" constant="10" id="S9A-xe-gSe"/>
+                <constraint firstItem="shg-D4-63g" firstAttribute="height" secondItem="QPn-jh-Adr" secondAttribute="height" multiplier="0.04" id="SnG-zY-4ai"/>
+                <constraint firstItem="k8E-rh-vys" firstAttribute="leading" secondItem="QPn-jh-Adr" secondAttribute="leading" constant="10" id="WZI-N1-rcA"/>
+                <constraint firstItem="k8E-rh-vys" firstAttribute="bottom" secondItem="shg-D4-63g" secondAttribute="top" id="YWN-GD-hSt"/>
+                <constraint firstAttribute="trailing" secondItem="k8E-rh-vys" secondAttribute="trailing" constant="10" id="d9J-kb-bGM"/>
+                <constraint firstItem="SKI-ls-2vS" firstAttribute="width" secondItem="QPn-jh-Adr" secondAttribute="height" multiplier="9:10" id="nz1-50-6Kc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-316.03053435114504" y="241.5492957746479"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
