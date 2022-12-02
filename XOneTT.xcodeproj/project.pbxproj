@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A50911F2930F988007D0C09 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50911D2930F988007D0C09 /* CollectionViewCell.swift */; };
-		9A5091202930F988007D0C09 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A50911E2930F988007D0C09 /* CollectionViewCell.xib */; };
 		9A5091222930F9AF007D0C09 /* CollectionViewModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5091212930F9AF007D0C09 /* CollectionViewModelCell.swift */; };
 		9A5091242930F9BF007D0C09 /* CollectionViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5091232930F9BF007D0C09 /* CollectionViewCellViewModelType.swift */; };
 		9A5091262930F9C4007D0C09 /* CollectionViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5091252930F9C4007D0C09 /* CollectionViewViewModelType.swift */; };
@@ -16,6 +14,8 @@
 		9A50912B29310605007D0C09 /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A50912A29310605007D0C09 /* TableViewHeader.xib */; };
 		9A6228C2292F970900695353 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6228C1292F970900695353 /* MainViewModel.swift */; };
 		9A6228C5292F974700695353 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6228C4292F974700695353 /* APIManager.swift */; };
+		9A7D729E293A69210045D683 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D729D293A69210045D683 /* CollectionViewCell.swift */; };
+		9A7D72A0293A693E0045D683 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7D729F293A693E0045D683 /* CollectionViewCell.xib */; };
 		9A9C71C129323D6B0046AB40 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9C71C029323D6B0046AB40 /* MainScreen.storyboard */; };
 		9AA98281292FA21A00A99A4A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA98280292FA21A00A99A4A /* WeatherModel.swift */; };
 		9AEA442E292FCCFD00BAEFC2 /* TableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA442D292FCCFD00BAEFC2 /* TableViewViewModelType.swift */; };
@@ -33,8 +33,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A50911D2930F988007D0C09 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../../../../../.Trash/CollectionViewCell.swift; sourceTree = "<group>"; };
-		9A50911E2930F988007D0C09 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = ../../../../../.Trash/CollectionViewCell.xib; sourceTree = "<group>"; };
 		9A5091212930F9AF007D0C09 /* CollectionViewModelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModelCell.swift; sourceTree = "<group>"; };
 		9A5091232930F9BF007D0C09 /* CollectionViewCellViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModelType.swift; sourceTree = "<group>"; };
 		9A5091252930F9C4007D0C09 /* CollectionViewViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewViewModelType.swift; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		9A50912A29310605007D0C09 /* TableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
 		9A6228C1292F970900695353 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		9A6228C4292F974700695353 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		9A7D729D293A69210045D683 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9A7D729F293A693E0045D683 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		9A9C71C029323D6B0046AB40 /* MainScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
 		9AA98280292FA21A00A99A4A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		9AEA442D292FCCFD00BAEFC2 /* TableViewViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModelType.swift; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		9A5091162930F865007D0C09 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				9A50911D2930F988007D0C09 /* CollectionViewCell.swift */,
-				9A50911E2930F988007D0C09 /* CollectionViewCell.xib */,
+				9A7D729D293A69210045D683 /* CollectionViewCell.swift */,
+				9A7D729F293A693E0045D683 /* CollectionViewCell.xib */,
 				9A5091212930F9AF007D0C09 /* CollectionViewModelCell.swift */,
 			);
 			path = CollectionViewCell;
@@ -121,8 +121,8 @@
 			children = (
 				9AEA442D292FCCFD00BAEFC2 /* TableViewViewModelType.swift */,
 				9AEA442F292FCEE800BAEFC2 /* TableViewCellViewModelType.swift */,
-				9A5091232930F9BF007D0C09 /* CollectionViewCellViewModelType.swift */,
 				9A5091252930F9C4007D0C09 /* CollectionViewViewModelType.swift */,
+				9A5091232930F9BF007D0C09 /* CollectionViewCellViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -265,11 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEA443D292FFBF000BAEFC2 /* TestTaskJSON.json in Resources */,
-				9A5091202930F988007D0C09 /* CollectionViewCell.xib in Resources */,
 				9A50912B29310605007D0C09 /* TableViewHeader.xib in Resources */,
 				9AFED8E5292E357900A7B0A1 /* LaunchScreen.storyboard in Resources */,
 				9AFED8F8292E5E7200A7B0A1 /* TableViewCell.xib in Resources */,
 				9AFED8E2292E357900A7B0A1 /* Assets.xcassets in Resources */,
+				9A7D72A0293A693E0045D683 /* CollectionViewCell.xib in Resources */,
 				9A9C71C129323D6B0046AB40 /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +283,7 @@
 			files = (
 				9AEA442E292FCCFD00BAEFC2 /* TableViewViewModelType.swift in Sources */,
 				9AFED8F7292E5E7200A7B0A1 /* TableViewCell.swift in Sources */,
+				9A7D729E293A69210045D683 /* CollectionViewCell.swift in Sources */,
 				9A5091262930F9C4007D0C09 /* CollectionViewViewModelType.swift in Sources */,
 				9AFED8DD292E357700A7B0A1 /* MainViewController.swift in Sources */,
 				9AFED8D9292E357700A7B0A1 /* AppDelegate.swift in Sources */,
@@ -292,7 +293,6 @@
 				9A6228C2292F970900695353 /* MainViewModel.swift in Sources */,
 				9AEA4432292FD14A00BAEFC2 /* TableViewModelCell.swift in Sources */,
 				9A5091222930F9AF007D0C09 /* CollectionViewModelCell.swift in Sources */,
-				9A50911F2930F988007D0C09 /* CollectionViewCell.swift in Sources */,
 				9A509128293105E8007D0C09 /* TableViewHeader.swift in Sources */,
 				9AEA4430292FCEE800BAEFC2 /* TableViewCellViewModelType.swift in Sources */,
 				9AEA4435292FD32100BAEFC2 /* Identifiers.swift in Sources */,
@@ -442,6 +442,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = MainScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +470,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = MainScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

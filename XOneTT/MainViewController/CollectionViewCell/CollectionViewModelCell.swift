@@ -14,14 +14,14 @@ class CollectionViewModelCell: CollectionViewCellViewModelType {
     var time: String
     
     init(weather: WeatherPerDay) {
-        if weather.timestamp == String(describing: Calendar.current.component(.hour, from: Date())) {
+        if weather.timestamp == "16" {
             self.time = "Сейчас"
         } else {
             self.time = weather.timestamp
         }
         if weather.sunset ?? false {
             self.tmpr = "Заход солнца"
-            self.image = UIImage(systemName: "sunset.fill")!
+            self.image = UIImage(systemName: "sunset.fill")!.withTintColor(.systemYellow, renderingMode: .alwaysOriginal)
         } else {
             self.image = APIManager.parseImage(code: weather.weatherType)
             self.tmpr = "\(weather.tmpr)°"

@@ -13,12 +13,14 @@ class TableViewModelCell: TableViewCellViewModelType {
     var image: UIImage
     var maxTmpr: String
     var minTmpr: String
+    var probability: String?
     
     init(forecast: Forecast) {
         self.dayWeek = String(TableViewModelCell.getWeekDay(dateString: forecast.date))
         self.image = APIManager.parseImage(code: forecast.weatherType)
         self.maxTmpr = "\(forecast.maxTmpr)°"
         self.minTmpr = "\(forecast.minTmpr)°"
+        self.probability = forecast.probability
     }
     
     static func getWeekDay(dateString: String) -> String {

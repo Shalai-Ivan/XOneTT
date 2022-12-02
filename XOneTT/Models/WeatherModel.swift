@@ -39,9 +39,10 @@ struct Forecast: Codable {
     let minTmpr: Int
     let maxTmpr: Int
     let weatherType: Int
+    let probability: String?
     
     enum CodingKeys: String, CodingKey {
-        case date
+        case date, probability
         case minTmpr = "min_temperature"
         case maxTmpr = "max_temperature"
         case weatherType = "weather_type"

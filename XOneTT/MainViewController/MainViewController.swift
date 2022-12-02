@@ -91,7 +91,6 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: Identifiers.tableHeader.rawValue) as! TableViewHeader
-        header.clipsToBounds = true
         return header
     }
     

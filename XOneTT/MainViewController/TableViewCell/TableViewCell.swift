@@ -13,6 +13,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet private weak var weatherImage: UIImageView!
     @IBOutlet private weak var maxTmpr: UILabel!
     @IBOutlet private weak var minTmpr: UILabel!
+    @IBOutlet private weak var weatherProbability: UILabel!
     weak var viewModel: TableViewCellViewModelType? {
         willSet(viewModel) {
             guard let viewModel = viewModel else { return }
@@ -20,6 +21,7 @@ class TableViewCell: UITableViewCell {
             weatherImage.image = viewModel.image
             maxTmpr.text = viewModel.maxTmpr
             minTmpr.text = viewModel.minTmpr
+            weatherProbability.text = viewModel.probability
         }
     }
 }

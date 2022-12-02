@@ -12,4 +12,5 @@ protocol TableViewCellViewModelType: AnyObject {
     var image: UIImage { get }
     var maxTmpr: String { get }
     var minTmpr: String { get }
+    var probability: String? { get }
 }
