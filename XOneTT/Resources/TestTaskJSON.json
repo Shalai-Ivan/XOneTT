@@ -1,0 +1,87 @@
+{
+  "city": "Minsk",
+  "temperature": "-4 | Облачно",
+  "description": "Облачная погода до конца дня. Порывы ветра до 25 км/ч.",
+  "weather_per_day": [
+    {
+      "timestamp": "16",
+      "weather_type": 800,
+      "temperature": "-4"
+    },
+    {
+      "timestamp": "17",
+      "weather_type": 602,
+      "temperature": "-4"
+    },
+     {
+      "timestamp": "18",
+      "weather_type": 600,
+      "temperature": "-4"
+    },
+     {
+      "timestamp": "19",
+      "sunset": true,
+      "weather_type": 604,
+      "temperature": "-2"
+    }
+  ],
+  "forecast": [
+    {
+      "date": "02.12.2022",
+      "min_temperature": -4,
+      "max_temperature": 0,
+      "weather_type": 203
+    },
+    {
+      "date": "03.12.2022",
+      "min_temperature": -5,
+      "max_temperature": 1,
+      "weather_type": 701
+    },
+    {
+      "date": "04.12.2022",
+      "min_temperature": -4,
+      "max_temperature": -2,
+      "weather_type": 504
+    },
+     {
+      "date": "05.12.2022",
+      "min_temperature": -4,
+      "max_temperature": -2,
+      "weather_type": 605,
+      "probability": "70%"
+    },
+     {
+      "date": "06.12.2022",
+      "min_temperature": -4,
+      "max_temperature": -1,
+      "weather_type": 800
+    },
+     {
+      "date": "07.12.2022",
+      "min_temperature": -10,
+      "max_temperature": -1,
+      "weather_type": 802
+    },
+     {
+      "date": "08.12.2022",
+      "min_temperature": -2,
+      "max_temperature": 0,
+      "weather_type": 603,
+      "probability": "70%"
+    },
+     {
+      "date": "09.12.2022",
+      "min_temperature": -10,
+      "max_temperature": -5,
+      "weather_type": 612,
+      "probability": "50%"
+    },
+     {
+      "date": "10.12.2022",
+      "min_temperature": -5,
+      "max_temperature": -2,
+      "weather_type": 316
+    }
+  ]
+}
