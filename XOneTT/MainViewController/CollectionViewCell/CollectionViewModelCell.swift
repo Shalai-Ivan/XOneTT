@@ -14,7 +14,6 @@ class CollectionViewModelCell: CollectionViewCellViewModelType {
     var time: String
     
     init(weather: WeatherPerDay) {
-        print("WEATHER SUNSET - \(weather.sunset)")
         if weather.timestamp == "16" {
             self.time = "Сейчас"
         } else {
